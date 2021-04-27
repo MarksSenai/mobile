@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">NR12</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="action_ok">OK</string>
+    <string name="action_sync">Sincronizar</string>
+
+    <string name="nome">João da Silva</string>
+    <string name="email">joao@email.com.br</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="android_studio_android_com">android.studio@android.com</string>
+
+    <string name="lbl_cliente">Cliente</string>
+    <string name="lbl_maquina">Máquina</string>
+    <string name="lbl_hora_inicial">Horário de início</string>
+    <string name="lbl_data">Data</string>
+    <string name="lbl_avancar">Avançar</string>
+    <string name="lbl_salvar">Salvar</string>
+    <string name="lbl_excluir">Excluir</string>
+    <string name="lbl_setor">Setor</string>
+    <string name="lbl_n_operadores">Números de operadores</string>
+    <string name="lbl_modelo">Modelo</string>
+    <string name="lbl_fabricante">Fabricante</string>
+    <string name="lbl_capacidade">Capacidade</string>
+    <string name="lbl_ano">Ano</string>
+    <string name="lbl_patrimonio">Nº Patrimônio</string>
+    <string name="lbl_search">Pesquisar</string>
+    <string name="lbl_tipo_maquina">Tipo Máquina</string>
+    <string name="lbl_url">Url Servidor</string>
+
+    <string name="message_campos_invalidos_brancos">Há campos invalidos ou em branco!</string>
+    <string name="message_conexao_sucesso">Conexão criada com sucesso!</string>
+
+    <string name="title_activity_list_relatorio">Relatórios</string>
+    <string name="title_activity_cad_relatorio">Cadastro de Relatório</string>
+    <string name="title_activity_ponto_perigo">Ponto de Perigo</string>
+    <string name="title_activity_cad_usuario">Configurações</string>
+    <string name="title_activity_seleciona_cliente">Selecionar Cliente</string>
+    <string name="title_activity_cad_maquina">Cadastro de Máquina</string>
+    <string name="title_aviso">Aviso</string>
+    <string name="title_activity_seleciona_maquina">Seleciona Máquina</string>
+    <string name="title_erro">Erro</string>
+    <string name="title_info">INFO</string>
+    <string name="lbl_numero_serie">Número Série</string>
+    <string name="ok">OK</string>
+    <string name="lbl_cumpre_anexo">Cumpre Anexo I</string>
+    <string name="lbl_sistema_de_seguranca">Sistema de Segurança</string>
+    <string name="lbl_face">Face</string>
+    <string name="lbl_risco">Risco</string>
+    <string name="lbl_perigo">Perigo</string>
+    <string name="lbl_adiciona_perigo">Adiciona Perigo</string>
+    <string name="lbl_adiciona_risco">Adiciona Risco</string>
+    <string name="lbl_enviar">Enviar</string>
+    <string name="lbl_ponto_perigo">Ponto Perigo</string>
+
+    <string-array name="relatorios">
+        <item>Relatório1</item>
+        <item>Relatório2</item>
+        <item>Relatório3</item>
+        <item>Relatório4</item>
+        <item>Relatório5</item>
+        <item>Relatório6</item>
+        <item>Relatório7</item>
+        <item>Relatório8</item>
+        <item>Relatório9</item>
+        <item>Relatório10</item>
+    </string-array>
+
+    <string-array name="clientes">
+        <item>Cliente1</item>
+        <item>Cliente2</item>
+        <item>Cliente3</item>
+        <item>Cliente4</item>
+        <item>Cliente5</item>
+        <item>Cliente6</item>
+        <item>Cliente7</item>
+        <item>Cliente8</item>
+        <item>Cliente9</item>
+        <item>Cliente10</item>
+    </string-array>
+
+    <string-array name="itens">
+        <item>Item1</item>
+        <item>Item2</item>
+        <item>Item3</item>
+        <item>Item4</item>
+        <item>Item5</item>
+    </string-array>
+
+    <string-array name="maquinas">
+        <item>Maquina1</item>
+        <item>Maquina2</item>
+        <item>Maquina3</item>
+        <item>Maquina4</item>
+        <item>Maquina5</item>
+        <item>Maquina6</item>
+        <item>Maquina7</item>
+        <item>Maquina8</item>
+        <item>Maquina9</item>
+        <item>Maquina10</item>
+    </string-array>
+
+    <string-array name="perigos">
+        <item>Perigo 1</item>
+        <item>Perigo 2</item>
+        <item>Perigo 3</item>
+    </string-array>
+
+    <string-array name="riscos">
+        <item>Risco 1</item>
+        <item>Risco 2</item>
+        <item>Risco 3</item>
+    </string-array>
+
+    <string-array name="faces">
+        <item></item>
+        <item>Face Frontal</item>
+        <item>Face Lateral Esquerda</item>
+        <item>Face Lateral Direita</item>
+        <item>Face Posterior</item>
+        <item>Face Superior</item>
+    </string-array>
+
+    <string-array name="cumpreAnexo">
+        <item></item>
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string-array name="sistemaSeguranca">
+        <item>Sistema Segurança 1</item>
+        <item>Sistema Segurança 2</item>
+        <item>Sistema Segurança 3</item>
+    </string-array>
+
+</resources>

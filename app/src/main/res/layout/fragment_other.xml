@@ -1,0 +1,210 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nr12.fragments.OtherFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:text="INSTALAÇÕES ELETRICAS"/>
+
+            <LinearLayout
+                android:id="@+id/idTimeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:text="AREA DE INSTALAÇÃO"/>
+
+                <Switch
+                    android:id="@+id/idSwiSeco"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Seco"/>
+                <Switch
+                    android:id="@+id/idSwiExterna"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Umida/Externa"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/idLayoutDisjuntor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idDisjuntor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:text="DISJUNTOR"/>
+
+                <Switch
+                    android:id="@+id/idSwiEspecifico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Específico"/>
+                <Switch
+                    android:id="@+id/idSwiIdentificado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Identificado"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/idLayoutGeral"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idChaveGeral"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:text="CHAVE GERAL DO BLOQUEIO"/>
+
+                <Switch
+                    android:id="@+id/idSwitchInstalada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Instalada"/>
+                <Switch
+                    android:id="@+id/idSwiIdentificada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Identificada"/>
+                <Switch
+                    android:id="@+id/idSwiBloqueio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Bloqueio"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/idLayoutAlimentacao"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idPainelAlimentacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:text="PAINEL DE ALIMENTACAO" />
+
+                <Switch
+                    android:id="@+id/idSwiPermanente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Porta Permanente Fechada"/>
+                <Switch
+                    android:id="@+id/idSwiPortaBloqueio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Porta bloqueada c/ Chave" />
+                <Switch
+                    android:id="@+id/idSwitchPortaSinalizada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Porta sinalizada"/>
+                <Switch
+                    android:id="@+id/idSwiBomEstado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Bom estado de conservação"/>
+                <Switch
+                    android:id="@+id/idSwiCircuito"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Identificação de circuito"/>
+                <Switch
+                    android:id="@+id/idSwiGrauIp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Grau IP Adequado"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/idLayoutPartida"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idPartidaParada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:text="DISPOSITIVO DE PARADA DE EMERGENCIA"/>
+
+                <Switch
+                    android:id="@+id/idSwiPartida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Utilizado como partida"/>
+                <Switch
+                    android:id="@+id/idSwiAcesso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Facil acesso por outro operador" />
+                <Switch
+                    android:id="@+id/idSwiRearme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Exige Rearme"/>
+                <Switch
+                    android:id="@+id/idSwiRetencao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Retenção após acionamento"
+                    android:layout_margin="5dp"/>
+                <Space
+                    android:layout_width="1dp"
+                    android:layout_height="150dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

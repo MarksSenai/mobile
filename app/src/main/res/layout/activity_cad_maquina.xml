@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_cad_maquina"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/text_margin"
+    tools:context="com.example.nr12.CadMaquinaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewCLienteLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/label_padding_bottom"
+                android:paddingTop="@dimen/label_padding_top"
+                android:text="@string/lbl_cliente"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="0dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="40dp" />
+
+            <TextView
+                android:id="@+id/txtViewCLiente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/input_padding_bottom"
+                android:paddingTop="@dimen/input_padding_top"
+                android:text="@string/lbl_cliente"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_conversion_absoluteHeight="40dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/textViewMaquina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/label_padding_bottom"
+                android:paddingTop="@dimen/label_padding_top"
+                android:text="@string/lbl_maquina"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="40dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="40dp" />
+
+            <EditText
+                android:id="@+id/edtMaquina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="@dimen/input_padding_bottom"
+                android:paddingTop="@dimen/input_padding_top"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="81dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="37dp" />
+
+            <TextView
+                android:id="@+id/textViewTipoMaquina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/label_padding_bottom"
+                android:paddingTop="@dimen/label_padding_top"
+                android:text="@string/lbl_tipo_maquina"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="118dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="40dp" />
+
+            <Spinner
+                android:id="@+id/spnTipoMaquina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/input_padding_bottom"
+                android:paddingTop="@dimen/input_padding_top"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="159dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="24dp" />
+
+            <TextView
+                android:id="@+id/textViewSetor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/label_padding_bottom"
+                android:paddingTop="@dimen/label_padding_top"
+                android:text="@string/lbl_setor"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="183dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="40dp" />
+
+            <EditText
+                android:id="@+id/edtSetor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="@dimen/input_padding_bottom"
+                android:paddingTop="@dimen/input_padding_top"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="223dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="37dp" />
+
+            <TextView
+                android:id="@+id/textViewOperadores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/label_padding_bottom"
+                android:paddingTop="@dimen/label_padding_top"
+                android:text="@string/lbl_n_operadores"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="261dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="40dp" />
+
+            <EditText
+                android:id="@+id/edtOperadores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberSigned"
+                android:paddingBottom="@dimen/input_padding_bottom"
+                android:paddingTop="@dimen/input_padding_top"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="301dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="37dp" />
+
+            <TextView
+                android:id="@+id/textViewModelo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/label_padding_bottom"
+                android:paddingTop="@dimen/label_padding_top"
+                android:text="@string/lbl_modelo"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="339dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="40dp" />
+
+            <EditText
+                android:id="@+id/edtModelo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="@dimen/input_padding_bottom"
+                android:paddingTop="@dimen/input_padding_top"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="379dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="37dp" />
+
+            <TextView
+                android:id="@+id/textViewFabricante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/label_padding_bottom"
+                android:paddingTop="@dimen/label_padding_top"
+                android:text="@string/lbl_fabricante"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="417dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="40dp" />
+
+            <EditText
+                android:id="@+id/edtFabricante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="@dimen/input_padding_bottom"
+                android:paddingTop="@dimen/input_padding_top"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="457dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="37dp" />
+
+            <TextView
+                android:id="@+id/textViewCapacidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/label_padding_bottom"
+                android:paddingTop="@dimen/label_padding_top"
+                android:text="@string/lbl_capacidade"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="495dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="40dp" />
+
+            <EditText
+                android:id="@+id/edtCapacidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="@dimen/input_padding_bottom"
+                android:paddingTop="@dimen/input_padding_top"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="535dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="37dp" />
+
+            <TextView
+                android:id="@+id/textViewAno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/label_padding_bottom"
+                android:paddingTop="@dimen/label_padding_top"
+                android:text="@string/lbl_ano"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="573dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="40dp" />
+
+            <EditText
+                android:id="@+id/edtAno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:paddingBottom="@dimen/input_padding_bottom"
+                android:paddingTop="@dimen/input_padding_top"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="613dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="37dp" />
+
+            <TextView
+                android:id="@+id/textViewPatrimonio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/label_padding_bottom"
+                android:paddingTop="@dimen/label_padding_top"
+                android:text="@string/lbl_patrimonio"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="651dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteHeight="40dp" />
+
+            <EditText
+                android:id="@+id/edtPatromonio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingBottom="@dimen/input_padding_bottom"
+                android:paddingTop="@dimen/input_padding_top"
+                tools:layout_conversion_absoluteHeight="37dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="691dp" />
+
+            <TextView
+                android:id="@+id/textViewNumeroSerie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/label_padding_bottom"
+                android:paddingTop="@dimen/label_padding_top"
+                android:text="@string/lbl_numero_serie"
+                tools:layout_conversion_absoluteHeight="40dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="651dp" />
+
+            <EditText
+                android:id="@+id/edtNumeroSerie"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="textPersonName|number"
+                android:paddingBottom="@dimen/input_padding_bottom"
+                android:paddingTop="@dimen/input_padding_top"
+                tools:layout_conversion_absoluteHeight="37dp"
+                tools:layout_conversion_absoluteWidth="352dp"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="691dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>
